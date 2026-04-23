@@ -1,0 +1,103 @@
+.container {
+    padding: 0px;
+}
+.header {
+    width: 100%;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(78, 164, 135, 1);
+    padding: 10px 0px 0px 0px;
+}
+
+.nav-bar {
+    width: 50%;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar a {
+    font-family: "arima";
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-bar img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    right: 40px;
+}
+.high {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    color: rgba(248, 245, 235, 1);
+}
+.high:hover {
+    background-image: url(./assets/icons/Main/Highlights_hover.svg);
+    background-size: 100% 20px;
+    bottom: 5px;
+    color: rgba(248, 245, 235, 1);
+}
+.high:active {
+    color: rgba(241, 201, 83, 1);
+}
+
+.high:focus {
+    color: rgba(241, 201, 83, 1);
+}
+.fag {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    color: rgba(248, 245, 235, 1);
+}
+.fag:hover {
+    background-image: url(./assets/icons/Main/FAQ_hover.svg);
+    background-size: 100% 20px;
+    color: rgba(248, 245, 235, 1);
+    bottom: 5px;
+}
+.fag:active {
+    color: rgba(241, 201, 83, 1);
+}
+.fag:focus {
+    color: rgba(241, 201, 83, 1);
+}
+.con {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    color: rgba(248, 245, 235, 1);
+}
+.con:hover {
+    background-image: url(./assets/icons/Main/Contacts_hover.svg);
+    background-size: 100% 20px;
+    color: rgba(248, 245, 235, 1);
+    bottom: 5px;
+}
+.con:active {
+    color: rgba(241, 201, 83, 1);
+}
+.con:focus {
+    color: rgba(241, 201, 83, 1);
+}
