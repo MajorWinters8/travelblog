@@ -33,19 +33,18 @@
 }
 .high {
     text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
     display: inline-block;
     transition: all 0.3s ease;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 0% 2px;
+    background-size: 0% 25px;
     color: rgba(248, 245, 235, 1);
 }
 .high:hover {
     background-image: url(./assets/icons/Main/Highlights_hover.svg);
     background-size: 100% 20px;
-    bottom: 5px;
+    left: 1px;
+    bottom: -1px;
     color: rgba(248, 245, 235, 1);
 }
 .high:active {
@@ -57,8 +56,6 @@
 }
 .fag {
     text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
     display: inline-block;
     transition: all 0.3s ease;
     background-position: bottom;
@@ -70,7 +67,8 @@
     background-image: url(./assets/icons/Main/FAQ_hover.svg);
     background-size: 100% 20px;
     color: rgba(248, 245, 235, 1);
-    bottom: 5px;
+    left: 1px;
+    bottom: -1px;
 }
 .fag:active {
     color: rgba(241, 201, 83, 1);
@@ -80,8 +78,6 @@
 }
 .con {
     text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
     display: inline-block;
     transition: all 0.3s ease;
     background-position: bottom;
@@ -93,7 +89,8 @@
     background-image: url(./assets/icons/Main/Contacts_hover.svg);
     background-size: 100% 20px;
     color: rgba(248, 245, 235, 1);
-    bottom: 5px;
+    left: 1px;
+    bottom: -1px;
 }
 .con:active {
     color: rgba(241, 201, 83, 1);
